@@ -1,0 +1,33 @@
+.body_background 
+{
+    background-image:url(light.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+.Login_Div{
+    background-image:url(light.jpg);
+    padding: 10px;
+    float: none;
+	border-radius: 15px;
+    text-align: center;
+    left: 600px;
+}
+
+#chat{
+    color: white;
+}
+
+#logout{
+    float: right;
+    margin-top: 15px;
+}
+
+.input_div_message_page{
+    background-color: cadetblue;
+    color: azure;
+}
+
+.send{
+    width: 750px;
+}

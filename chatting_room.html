@@ -1,0 +1,29 @@
+<html>
+ <head>
+     <title>Let's Chat Chatting Page</title>
+     <link rel="stylesheet" href="kwitter.css">
+     <script src="kwitter.js"></script>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     <script src = "message_room.js"></script>
+ </head> 
+    <body class="body_background">
+        <button class="glyphicon glyphicon-log-out btn btn-danger" id="logout" onclick="logout()">Logout</button>
+        <center>
+            <h1 class="header">	
+                Let's Chat <sup>
+            <img src="chat1.png">
+            </sup>
+        </h1>
+		<div id="output" style="text-align: left;margin-bottom: 70px;"> </div>
+ </center>
+ <center>
+    <div class="input_div_message_page">
+		<label>Send:</label>
+		<input type="text" id="msg" class="form-control" placeholder="Message">
+        <br>
+		<button onclick="send()" class="btn btn-success send">Send</button>
+	</div>
+</center>
